@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #fff;
+}
+
+*,
+*: before,
+*: after { 
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+/*Container*/
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*Intro*/
+
+.intro {
+	width: 100%;
+	height: 100vh;
+	background: url(../img/house.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.intro__title {
+	color: #fff;
+	font-size: 110px;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 35%;
+	text-shadow: 3px 3px 3px #000;
+	line-height: 1;
+}
+
+.intro__inner {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header {
+	padding-top: 30px;
+	width: 100%;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100%
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+.nav {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.nav__link {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	color: #fff;
+	text-decoration: none;
+	transition: color .2s linear;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	opacity: 0;
+	box-shadow: 1px 1px 1px #000;
+	
+	background-color: #FFBA00;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: opacity .2s;
+}
+
+.nav__link:hover:after {
+	opacity: 1;
+}
+
+.nav__link:hover{
+	color: #FFBA00;
+}
+
+.aboutAll {
+	color: #fff;
+	font-size: 14px;
+	vertical-align: top;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 30px;
+	margin-top: 100px;
+	border: 3px solid #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+
+
+}
+
+.aboutAll:hover{
+	color: #333;
+	background-color: #fff;
+	transition: color .6s , background-color 0.6s ;
+}
+
+
+div {
+	transition: 1s;
+}
+
+.discord {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	
+}
+
