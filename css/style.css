@@ -165,7 +165,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .section__text {
 	font-size: 24px;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	text-align: center;
 }
@@ -180,23 +179,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .max{
-	background-color: #FCD697;
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
+	color: white;
+	background: url("../img/max.jpg") no-repeat;
 }
 
 .nikita{
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
 	color: white;
-	background-color: #4A7CA7;
+	background: url("../img/nikita.jpg") no-repeat;
 }
 
 .ilya{
-	background-color: #C692F1;
+	font-size: 24px;
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
+	color: white;
+	background: url("../img/ilya.jpg");
+	margin: -14px auto;
 }
 
 .egor{
-	background-color: #92E2F1;
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
+	color: white;
+	background: url("../img/egor.jpg") no-repeat;
 }
 
 .valera{
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
 	color: white;
-	background-color: #FF00FB;
+	background: url("../img/valera.jpg") no-repeat;
 }
