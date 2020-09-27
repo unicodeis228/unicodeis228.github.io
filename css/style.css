@@ -1,216 +1,122 @@
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
+	font-weight: 600;
+	background: #FFFFFF;
+	background-image: url(../img/background.svg);
 }
 
-*,
-*: before,
-*: after { 
-	box-sizing: border-box;
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6 {
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	text-decoration: none;
+	list-style: none;
+}
+
+button {
+
+}
+
+p {
 	margin: 0;
 }
 
-/*Container*/
-
-.container {
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-/*Intro*/
-
-.intro {
-	width: 100%;
-	height: 100vh;
-	background: url(../img/house.jpg) center no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-
-.intro__title {
-	color: #fff;
-	font-size: 110px;
-	font-weight: 800;
-	text-transform: uppercase;
+nav {
 	display: flex;
-	justify-content: center;
-	text-align: center;
-	padding-top: 35%;
-	text-shadow: 3px 3px 3px #000;
-	line-height: 1;
 }
 
-.intro__inner {
-	width: 100%;
-	max-width: 700px;
-	margin: 0 auto;
-	text-align: center;
+.section {
+
+}
+
+.nav-item:last-child {
+	margin-left: 10px;
 }
 
 .header {
-	padding-top: 30px;
-	width: 100%;
-	position:  absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 100%
+	margin-top: 10px;
 }
 
-.header__inner {
-	display: flex;
-	justify-content: space-between;
+.row {
 	align-items: center;
 }
 
-.header__logo {
-	font-size: 50px;
-	font-weight: 700;
-	color: #fff;
-	text-shadow: 1px 1px 1px #000;
-
-}
-
 .nav {
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #fff;
-	text-shadow: 1px 1px 1px #000;
+	align-items: center;
 }
 
-.nav__link {
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 15px;
-	color: #fff;
-	text-decoration: none;
-	transition: color .2s linear;
+.nav-item {
+	margin-right: 15px;
 }
 
-.nav__link:after {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 2px;
-	opacity: 0;
-	box-shadow: 1px 1px 1px #000;
-	
-	background-color: #FFBA00;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: 1;
-
-	transition: opacity .2s;
+.nav-link-max{
+	color: #FF6643;
+}
+.nav-link-nikita{
+	color: #2F9DE0;
+}
+.nav-link-egor{
+	color: #4F4359;
+}
+.nav-link-ilya{
+	color: #67C6C0;
+}
+.nav-link-valera{
+	color: #81BF58;
 }
 
-.nav__link:hover:after {
-	opacity: 1;
+.texth1 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 88px;
+	display: flex;
+	align-items: center;
+	color: #AF0000;
 }
 
-.nav__link:hover{
-	color: #FFBA00;
-}
-
-.aboutAll {
-	color: #fff;
-	font-size: 14px;
-	vertical-align: top;
-	display: inline-block;
-	text-decoration: none;
-	padding: 5px 30px;
-	margin-top: 100px;
-	border: 3px solid #fff;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-
-
-}
-
-.aboutAll:hover{
-	color: #333;
-	background-color: #fff;
-	transition: color .6s , background-color 0.6s ;
-}
-
-
-.discord {
-	position: fixed;
-	bottom: 30px;
-	right: 30px;
-	
-}
-
-
-.section {
-	color: #333;
-	padding: 80px 0;
-}
-
-.section__name {
-	text-align: center;
-}
-
-.section__about {
-	text-align: center;
-}
-
-.section__text {
+.texth2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
 	font-size: 24px;
-	font-weight: 400;
-	text-align: center;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #AF0000;
+}
+
+.texth3 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 61px;
+	line-height: 74px;
+	display: flex;
+	align-items: center;
+	color: #AF0000;
+	margin-bottom: 350px;
 }
 
 
-
-.section__header {
-	width: 100%;
-	max-width: 950px;
-	margin: 0 auto 40px;
-
+.text {
+	margin: 236px 0;
 }
 
-.max{
-	font-family: 'Caveat', cursive;
-	font-weight: 700;
-	color: white;
-	background: url("../img/max.jpg") no-repeat;
-}
-
-.nikita{
-	font-family: 'Caveat', cursive;
-	font-weight: 700;
-	color: white;
-	background: url("../img/nikita.jpg") no-repeat;
-}
-
-.ilya{
-	font-size: 24px;
-	font-family: 'Caveat', cursive;
-	font-weight: 700;
-	color: white;
-	background: url("../img/ilya.jpg");
-	margin: -14px auto;
-}
-
-.egor{
-	font-family: 'Caveat', cursive;
-	font-weight: 700;
-	color: white;
-	background: url("../img/egor.jpg") no-repeat;
-}
-
-.valera{
-	font-family: 'Caveat', cursive;
-	font-weight: 700;
-	color: white;
-	background: url("../img/valera.jpg") no-repeat;
+.card {
+	overflow: hidden;
 }
